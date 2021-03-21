@@ -1,6 +1,6 @@
 # **ot-harjoitustyo**
 
-Harjoitellaan *ohjelmistotekniikkaa.
+Harjoitellaan ohjelmistotekniikkaa.
 
 
 ## Viikko 1 Tehtävät:
