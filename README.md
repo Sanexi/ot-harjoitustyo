@@ -1,6 +1,6 @@
-**ot-harjoitustyo**
+#**ot-harjoitustyo**
 
-Viikko 1 Tehtävät:
+##Viikko 1 Tehtävät:
 *gitlog.txt
 *kometorivi.txt
 
