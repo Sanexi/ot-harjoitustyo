@@ -1,0 +1,113 @@
+commit a5021cb464d0e6dc742d7f85617b29a11f9c1f77
+Author: Santeri Salonen <santerisa.salonen@gmail.com>
+Date:   Sun Mar 21 13:48:27 2021 +0200
+
+    harjoittelut
+
+ tiedostoja/file2.txt                 | 0
+ tiedostoja/{file1.txt => file22.txt} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 9639bfec49cf780221a995729544dc0ea4519167
+Author: Santeri Salonen <santerisa.salonen@gmail.com>
+Date:   Sun Mar 21 13:45:33 2021 +0200
+
+    filet
+
+ tiedostoja/file1.txt | 0
+ tiedostoja/file2.txt | 0
+ tiedostoja/file3.txt | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 3fe6a9516fa1ee1d0e6181390d6b3a91da5b629e
+Author: Santeri Salonen <santerisa.salonen@gmail.com>
+Date:   Sun Mar 21 13:39:34 2021 +0200
+
+    tiedostoja muutettu
+
+ eka.txt    | 2 +-
+ kolmas.txt | 3 ++-
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+
+commit 62f19f9d62a2543f93f42bbcde8c9bc097297202
+Author: Santeri Salonen <santerisa.salonen@gmail.com>
+Date:   Sun Mar 21 13:37:41 2021 +0200
+
+    tiedosto.txt uudelleennimetty
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 9e0e02f0d6ed1b11102200d52d3c74fec260fd35
+Author: Santeri Salonen <santerisa.salonen@gmail.com>
+Date:   Sun Mar 21 13:36:26 2021 +0200
+
+    toinen.txt poistettu
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 09587c2ee73a8d8ee472f53f9bc47e3370e0e4bd
+Author: Santeri Salonen <santerisa.salonen@gmail.com>
+Date:   Sun Mar 21 13:34:05 2021 +0200
+
+    tiedosto.txt muutettu
+
+ tiedosto.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 73c4c780bc992b441be2f899168285a829433952
+Author: Santeri Salonen <santerisa.salonen@gmail.com>
+Date:   Sun Mar 21 13:32:51 2021 +0200
+
+    tiedosto.txt muutettu
+
+ tiedosto.txt | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit ab10c75af1fdc3f1f5d8aa64685a9b095087d8b5
+Author: Santeri Salonen2 <santerisa.salonen@gmail.com>
+Date:   Sun Mar 21 13:28:19 2021 +0200
+
+    uusi kansio
+
+ stuff/sisalto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit c6d0fc729537a26918b4e543b5909fdea00636b8
+Author: Santeri Salonen2 <santerisa.salonen@gmail.com>
+Date:   Sun Mar 21 13:27:37 2021 +0200
+
+    Tiedostoja muutettu
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 3fb891ee275b43e49b53e0147d607edeb6bad546
+Author: Santeri Salonen2 <santerisa.salonen@gmail.com>
+Date:   Sun Mar 21 13:26:24 2021 +0200
+
+    kolmas.txt luotu
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit f6b163d285dc789f7b0234d014a9cb268b328b66
+Author: Sanex <santerisa.salonen@gmail.com>
+Date:   Sun Mar 21 13:22:58 2021 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 86118c9703ebf8436f7e36e18d4051245aec98f3
+Author: Sanex <santerisa.salonen@gmail.com>
+Date:   Sun Mar 21 13:21:06 2021 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
