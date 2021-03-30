@@ -2,8 +2,13 @@
 
 Harjoitellaan ohjelmistotekniikkaa.
 
+[Linkki vaativuusmmäärittelyyn]()
+[Linkki työaikakirjanpitoon](https://github.com/Sanexi/ot-harjoitustyo/blob/master/tyoaikakirjanpito.md)
 
-## Viikko 1 Tehtävät:
+
+
+## Laskarit
+### Viikko 1 Tehtävät:
 * [gitlog.txt](https://github.com/Sanexi/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
 * [kometorivi.txt](https://github.com/Sanexi/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
 
