@@ -2,7 +2,7 @@
 
 Linkit työhön:
 
-* [Linkki vaativuusmmäärittelyyn](https://github.com/Sanexi/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
+* [Linkki vaativuusmäärittelyyn](https://github.com/Sanexi/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 * [Linkki työaikakirjanpitoon](https://github.com/Sanexi/ot-harjoitustyo/blob/master/dokumentaatio/tyoaikakirjanpito.md)
 
 
