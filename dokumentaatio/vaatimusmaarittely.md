@@ -18,6 +18,7 @@ Sovelluksessa yksi näkymä, jossa voi valita valuutan mistä kääntää, sekä
 * Käyttäjä voi kopioida leikepöydälle saamansa valuuttamäärän painamalla yhtä näppäintä
 * Sovellus muistaa käyttäjän usein käytetyt valuutat ja suosittelee näitä
 * Sovellus näyttää eniten käännetyt valuutat ensimmäisenä
+* Tietokanta kiinnostavista tiedoista kuten kuinka monta kertaa tiettyä valuuttaa ollaan käännetty
 * Enemmän käännettäviä valuuttoja
 * Valuutoille symbolit/liput
 * Käyttäjäystävällisempi käyttöliittymä
