@@ -1,9 +1,9 @@
 # **ot-harjoitustyo**
 
-Harjoitellaan ohjelmistotekniikkaa.
+Linkit työhön:
 
-[Linkki vaativuusmmäärittelyyn]()
-[Linkki työaikakirjanpitoon](https://github.com/Sanexi/ot-harjoitustyo/blob/master/tyoaikakirjanpito.md)
+* [Linkki vaativuusmmäärittelyyn](https://github.com/Sanexi/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
+* [Linkki työaikakirjanpitoon](https://github.com/Sanexi/ot-harjoitustyo/blob/master/dokumentaatio/tyoaikakirjanpito.md)
 
 
 
