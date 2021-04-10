@@ -1,0 +1,16 @@
+// Chain elements like this
+[Pelaaja]*>[Nappula]
+[Pelaaja]*>[Noppa]
+[Pelilauta]*>[Ruudut]*>[Kortit]
+[Ruudut]*>[Kadut]*>[Pelaaja]
+[Nappula]*>[Ruudut]
+
+
+// Add more detail
+[Noppa|heita_noppaa()]
+[Pelaaja|id; raha]
+[Pelilauta|aloitusruutu; vankila]
+[Ruudut|aloitusruutu(self, pelaaja); vankila(self, pelaaja); sattuma(self, pelaaja); laitokset(self, katu, rakennetaan, pelaaja); kadut(self, katu, rakennetaan, pelaaja)]
+[Kadut|id; rakennustaso; hinta; omistaja|rakenna(self)]
+[Nappula|]
+[Kortit|kortit|nosta_kortti(self)]
