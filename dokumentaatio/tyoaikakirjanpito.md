@@ -2,4 +2,4 @@
 
 | päivä | aika | tehtävä  |
 | :----:|:-----| :-----|
-| 30.3. | 1    | työn suunnittelu, README.md |
+| 30.3. | 2    | työn suunnittelu, vaativuusmäärittely |
