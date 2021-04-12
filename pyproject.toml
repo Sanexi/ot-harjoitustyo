@@ -8,6 +8,7 @@ authors = ["Santeri Salonen <santerisa.salonen@gmail.com>"]
 python = "^3.6"
 cowsay = "^3.0"
 invoke = "^1.5.0"
+requests = "^2.25.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.3"
