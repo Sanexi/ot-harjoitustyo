@@ -32,10 +32,4 @@ def main():
     print(f"{count} {a} = {converter.convert(count, a, b)} {b} as of {converter.date()}")
 
 if __name__ == "__main__":
-    converter = Converter()
-    print("Select from following currencies: ")
-    print(converter.currencies)
-    a = input("Convert from: ")
-    count = int(input("Amount: "))
-    b = input("Convert to: ")
-    print(f"{count} {a} = {converter.convert(count, a, b)} {b} as of {converter.date()}")
+    main()
