@@ -50,6 +50,8 @@ poetry run invoke test
 poetry run invoke coverage-report
 ```
 
+#### Projektin Python versio: 3.6
+
 
 ### Linkit työhön:
 
