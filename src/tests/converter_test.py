@@ -1,19 +1,35 @@
-import unittest
-from converter import Converter
 from datetime import datetime
+import unittest
 import requests
+from converter.converter import Converter, ExchangeRateApi
+
+
+class StubExchangeRateApi:
+    def __init__(self):
+        self._base_url = "https://api.exchangerate.host"
+
+    def get_rates(self):
+        url = f"{self._base_url}/latest"
+        response = requests.get(url)
+        return response.json()
+
 
 class TestConverter(unittest.TestCase):
     def setUp(self):
         pass
 
     def test_correct_date(self):
-        converter = Converter()
+        converter = Converter(ExchangeRateApi())
         converter_date = converter.date()
         now = datetime.now()
         now = now.strftime("%d.%m.%Y")
         self.assertEqual(converter_date, now)
-    
+
     def test_convert_success(self):
-        converter = Converter()
+        converter = Converter(ExchangeRateApi())
         self.assertEqual(converter.success, True)
+
+    def test_exchange_rates(self):
+        converter = ExchangeRateApi().get_rates()
+        stub = StubExchangeRateApi().get_rates()
+        self.assertEqual(converter["rates"], stub["rates"])
