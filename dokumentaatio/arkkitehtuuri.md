@@ -1,1 +1,1 @@
-![Pakkauskaavio](dokumentaatio/pakkauskaavio.JPG)
+![Pakkauskaavio](pakkauskaavio.JPG)
