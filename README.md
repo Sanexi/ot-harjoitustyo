@@ -57,5 +57,6 @@ poetry run invoke coverage-report
 
 * [Linkki vaativuusmäärittelyyn](https://github.com/Sanexi/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
 * [Linkki työaikakirjanpitoon](https://github.com/Sanexi/ot-harjoitustyo/blob/master/dokumentaatio/tyoaikakirjanpito.md)
+* [Linkki arkkitehtuuriin](https://github.com/Sanexi/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
 
 
