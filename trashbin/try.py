@@ -1,8 +1,10 @@
-import sys
-import os
-projectPath = os.path.abspath(os.path.join(os.getcwd()))
-sys.path.append(projectPath)
+src/
+    index.py
+    converter/
+        converter.py
+    ui/
+        ui.py
+    tests/
+        converter_test.py
+        __init__.py
 
-from pySim.entity.source import *
-if __name__ == "__main__":
-    a(1)

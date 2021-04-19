@@ -20,10 +20,10 @@ class Converter:
         self.success = self.data["success"]
 
     def convert(self, count, from_curr, to_curr):
-        if self.success:
+        if self.success and count != "":
             if from_curr != "EUR":
-                count = count / self.rates[from_curr]
-            return f"{self.rates[to_curr]*count:.4f}"
+                count = float(count) / self.rates[from_curr]
+            return f"{float(self.rates[to_curr])*float(count):.4f}"
         return "Conversion Failed."
 
     def date(self):

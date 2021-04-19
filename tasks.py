@@ -2,7 +2,7 @@ from invoke import task
 
 @task
 def start(ctx):
-    ctx.run("py src/converter/converter.py")
+    ctx.run("python3 src/ui.py")
 
 @task
 def test(ctx):
@@ -23,7 +23,3 @@ def lint(ctx):
 @task
 def format(ctx):
     ctx.run("autopep8 --in-place --recursive src")
-
-@task
-def ui(ctx):
-    ctx.run("py src/ui/ui.py")
