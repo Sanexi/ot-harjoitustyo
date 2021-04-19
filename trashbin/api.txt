@@ -1,2 +1,0 @@
-https://exchangerate.host/#
-https://api.exchangerate.host/latest
