@@ -6,4 +6,6 @@
 | 10.4. | 3    | suunnittelua, API:n käytön tutkimista, testailua |
 | 11.4. | 4    | converter.py luonti, sovelluksen perusominaisuuksien toteutus |
 | 12.4. | 4    | testien luonti, projekti palautuskuntoon |
-
+| 17.4. | 3    | Oman API-luokan luonti, Labtoolin korjausehdotukset |
+| 18.4. | 5    | UI:n luonti ja aloittelua |
+| 19.4. | 3    | UI perustoiminta kuntoon, projekti palautuskuntoon |
