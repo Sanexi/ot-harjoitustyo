@@ -34,3 +34,13 @@ class TestConverter(unittest.TestCase):
         test_exchange_rates = StubExchangeRateApi(url)
         stub = test_exchange_rates.get_rates()
         self.assertEqual(converter["rates"], stub["rates"])
+
+    def test_failed_conversion(self):
+        converter = Converter(ExchangeRateApi())
+        result = converter.convert("", "USD", "EUR")
+        self.assertEqual(result, False)
+        
+    def test_conversion_returns_float(self):
+        converter = Converter(ExchangeRateApi())
+        result = converter.convert(1, "USD", "EUR")
+        self.assertEqual(type(result), float)

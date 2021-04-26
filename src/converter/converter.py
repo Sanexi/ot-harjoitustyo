@@ -23,8 +23,8 @@ class Converter:
         if self.success and count != "":
             if from_curr != "EUR":
                 count = float(count) / self.rates[from_curr]
-            return f"{float(self.rates[to_curr])*float(count):.4f}"
-        return "Conversion Failed."
+            return float(f"{float(self.rates[to_curr])*float(count):.4f}")
+        return False
 
     def date(self):
         date = str(self.data["date"])
