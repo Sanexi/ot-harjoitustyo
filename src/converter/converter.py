@@ -31,18 +31,3 @@ class Converter:
         date = datetime.strptime(date, "%Y-%m-%d")
         date = date.strftime("%d.%m.%Y")
         return date
-
-
-def main():
-    converter = Converter(ExchangeRateApi())
-    print("Select from following currencies: ")
-    print(converter.currencies)
-    from_curr = input("Convert from: ")
-    count = int(input("Amount: "))
-    to_curr = input("Convert to: ")
-    print(f"{count} {from_curr} = {converter.convert(count, from_curr, to_curr)} \
-{to_curr} as of {converter.date()}")
-
-
-if __name__ == "__main__":
-    main()
