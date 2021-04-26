@@ -9,4 +9,7 @@
 | 17.4. | 3    | Oman API-luokan luonti, Labtoolin korjausehdotukset |
 | 18.4. | 5    | UI:n luonti ja aloittelua |
 | 19.4. | 3    | UI perustoiminta kuntoon, projekti palautuskuntoon |
-| Yhteensä | 24 |
+| 25.4. | 3    | UI parannuksia, lisää testejä |
+| 26.4. | 5    | UI lisää parannuksia, lisää testejä ja release |
+| 27.4. | 2    | Sekvenssikaavio ja loppuviikkopalautus |
+| Yhteensä | 34 |
