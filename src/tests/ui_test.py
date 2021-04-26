@@ -1,6 +1,6 @@
 from tkinter import Tk
 import unittest
-from ui import UI
+from ui.ui import UI
 
 class TestUI(unittest.TestCase):
     def setUp(self):

@@ -6,6 +6,7 @@ class UI:
     def __init__(self, root):
         self._root = root
         self._amount = IntVar()
+        self._ran = False
 
         self.default_from_curr = StringVar()
         self.default_from_curr.set("EUR")
@@ -40,18 +41,14 @@ class UI:
         result = self.converter.convert(count, from_curr, to_curr)
         output = f"{count} {from_curr} = {result} {to_curr}"
         date = f"as of {self.converter.date()}"
-        result_label = ttk.Label(master=self._root, text=output)
-        date_label = ttk.Label(master=self._root, text=date)
 
-        result_label.grid(row=3, column=0, columnspan=2, pady=10)
-        date_label.grid(row=4, column=0, columnspan=2, pady=10)
+        if self._ran:
+            self.result_label.destroy()
+            self.date_label.destroy()
+        self._ran = True
 
+        self.result_label = ttk.Label(master=self._root, text=output)
+        self.date_label = ttk.Label(master=self._root, text=date)
 
-window = Tk()
-window.title("OTConverter")
-window.minsize(300, 200)
-
-ui = UI(window)
-ui.start()
-
-window.mainloop()
+        self.result_label.grid(row=3, column=0, columnspan=2, pady=10)
+        self.date_label.grid(row=4, column=0, columnspan=2, pady=10)

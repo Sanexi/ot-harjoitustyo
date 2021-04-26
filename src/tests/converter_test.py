@@ -5,12 +5,11 @@ from converter.converter import Converter, ExchangeRateApi
 
 
 class StubExchangeRateApi:
-    def __init__(self):
-        self._base_url = "https://api.exchangerate.host"
+    def __init__(self, url):
+        self._url = url
 
     def get_rates(self):
-        url = f"{self._base_url}/latest"
-        response = requests.get(url)
+        response = requests.get(self._url)
         return response.json()
 
 
@@ -31,5 +30,7 @@ class TestConverter(unittest.TestCase):
 
     def test_exchange_rates(self):
         converter = ExchangeRateApi().get_rates()
-        stub = StubExchangeRateApi().get_rates()
+        url = "https://api.exchangerate.host/latest"
+        test_exchange_rates = StubExchangeRateApi(url)
+        stub = test_exchange_rates.get_rates()
         self.assertEqual(converter["rates"], stub["rates"])

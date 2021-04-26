@@ -2,7 +2,7 @@ from invoke import task
 
 @task
 def start(ctx):
-    ctx.run("py src/ui.py")
+    ctx.run("py src/index.py")
 
 @task
 def test(ctx):
