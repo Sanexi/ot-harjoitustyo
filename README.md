@@ -6,7 +6,7 @@ Sovellus on valuutanvaihtolaskuri. Se käyttää [exhangerate.host](https://exch
 
 ## Miten sovellus toimii?
 
-Asenna poetry:
+Asenna riippuvuudet:
 ```bash
 poetry install
 ```
@@ -16,25 +16,17 @@ Käynnistä sovellus:
 poetry run invoke start
 ```
 
-Valitse mistä valuutasta haluat vaihtaa:
-```bash
-Convert from: EUR
-```
+Sovelluksen alkunäkymä:
 
-Valitse vaihdettava määrä:
-```bash
-Amount: 10
-```
+![start](dokumentaatio/start.png)
 
-Valitse mihin valuuttaan haluat vaihtaa:
-```bash
-Convert to: USD
-```
+Valitse useista valuutoista:
 
-Ja sovellus antaa sinulle vastauksen!
-```bash
-10 EUR = 11.8848 USD as of 12.04.2021
-```
+![choose](dokumentaatio/choose.png)
+
+Ja vaihda valuuttasi:
+
+![convert](dokumentaatio/convert.png)
 
 
 ### Sovelluksen testaus
@@ -49,6 +41,14 @@ poetry run invoke test
 ```bash
 poetry run invoke coverage-report
 ```
+
+
+### Pylint-tarkastelu
+
+```bash
+poetry run invoke lint
+```
+
 
 #### Projektin Python versio: 3.6
 
