@@ -18,15 +18,15 @@ poetry run invoke start
 
 Sovelluksen alkunäkymä:
 
-![start](dokumentaatio/start.png)
+![start](dokumentaatio/images/start.png)
 
 Valitse useista valuutoista:
 
-![choose](dokumentaatio/choose.png)
+![choose](dokumentaatio/images/choose.png)
 
 Ja vaihda valuuttasi:
 
-![convert](dokumentaatio/convert.png)
+![convert](dokumentaatio/images/convert.png)
 
 
 ### Sovelluksen testaus
