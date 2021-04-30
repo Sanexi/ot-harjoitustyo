@@ -1,4 +1,5 @@
-from tkinter import Tk, ttk, constants, StringVar, IntVar, messagebox
+from tkinter import Tk, ttk, constants, StringVar, IntVar, messagebox, font
+from PIL import Image, ImageTk
 from converter.converter import Converter, ExchangeRateApi
 
 
@@ -8,15 +9,25 @@ class UI:
         self._amount = IntVar()
         self._ran = False
 
+        self._root.bind('<Return>', self._run_convert)
+
         self.default_from_curr = StringVar()
         self.default_from_curr.set("EUR")
         self.default_to_curr = StringVar()
         self.default_to_curr.set("USD")
 
+        self.font_style = font.Font(family="Futura", size=10)
+        self.style = ttk.Style()
+        self.style.configure('TButton', font=self.font_style)
+
         self.converter = Converter(ExchangeRateApi())
         self.currencies = self.converter.currencies
 
     def start(self):
+        image = Image.open("./src/images/background.jpg")
+        self.background = ImageTk.PhotoImage(image)
+        self.background_label = ttk.Label(master=self._root, image=self.background)
+
         self._from_curr_menu = ttk.Combobox(
             master=self._root, textvariable=self.default_from_curr, values=self.currencies)
         self._to_curr_menu = ttk.Combobox(
@@ -27,6 +38,12 @@ class UI:
         self._convert_button = ttk.Button(
             master=self._root, text="Convert", command=self._run_convert)
 
+        self._from_curr_menu.configure(font=self.font_style)
+        self._to_curr_menu.configure(font=self.font_style)
+        self._swap_currencies_button.configure(style="TButton")
+        self._convert_button.configure(style="TButton")
+
+        self.background_label.place(x=0, y=0)
         self._from_curr_menu.grid(
             row=0, column=0, sticky=(constants.W), padx=20, pady=20)
         self._swap_currencies_button.grid(row=0, column=1, padx=20, pady=20)
@@ -37,7 +54,7 @@ class UI:
 
         self._root.grid_columnconfigure(1, weight=1, minsize=300)
 
-    def _run_convert(self):
+    def _run_convert(self, event=None):
         count = self._amount.get()
         from_curr = self._from_curr_menu.get()
         to_curr = self._to_curr_menu.get()
@@ -53,7 +70,11 @@ class UI:
         self.result_label = ttk.Label(master=self._root, text=output)
         self.date_label = ttk.Label(master=self._root, text=date)
         self.copy_button = ttk.Button(
-            master=self._root, text="Copy to clipboard!", command=self._copy_to_clipboard)
+            master=self._root, text="Copy", command=self._copy_to_clipboard)
+
+        self.result_label.configure(font=self.font_style)
+        self.date_label.configure(font=self.font_style)
+        self.copy_button.configure(style="TButton")
 
         self.result_label.grid(row=3, column=1, pady=20)
         self.date_label.grid(row=4, column=1)
@@ -79,6 +100,9 @@ class UI:
             master=self._root, textvariable=self.new_from, values=self.currencies)
         self._to_curr_menu = ttk.Combobox(
             master=self._root, textvariable=self.new_to, values=self.currencies)
+
+        self._from_curr_menu.configure(font=self.font_style)
+        self._to_curr_menu.configure(font=self.font_style)
 
         self._from_curr_menu.grid(
             row=0, column=0, sticky=(constants.W), padx=20, pady=20)
