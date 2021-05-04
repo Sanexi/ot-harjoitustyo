@@ -59,7 +59,7 @@ class Converter:
         Returns:
             API:n vaihtotapahtuman antaman päivämäärän.
         """
-        
+
         date = str(self.data["date"])
         date = datetime.strptime(date, "%Y-%m-%d")
         date = date.strftime("%d.%m.%Y")

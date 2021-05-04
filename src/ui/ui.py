@@ -26,7 +26,8 @@ class UI:
     def start(self):
         image = Image.open("./src/images/background.jpg")
         self.background = ImageTk.PhotoImage(image)
-        self.background_label = ttk.Label(master=self._root, image=self.background)
+        self.background_label = ttk.Label(
+            master=self._root, image=self.background)
 
         self._from_curr_menu = ttk.Combobox(
             master=self._root, textvariable=self.default_from_curr, values=self.currencies)
@@ -58,6 +59,14 @@ class UI:
         count = self._amount.get()
         from_curr = self._from_curr_menu.get()
         to_curr = self._to_curr_menu.get()
+
+        try:
+            count = float(count)
+        except:
+            messagebox.showinfo(
+                "Error", "Wrong input, format input like this: 12.5 (not 12,5 €)")
+            return
+
         self.result = self.converter.convert(count, from_curr, to_curr)
         output = f"{self.result} {to_curr}"
         date = f"as of {self.converter.date()}"

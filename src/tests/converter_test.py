@@ -39,7 +39,7 @@ class TestConverter(unittest.TestCase):
         converter = Converter(ExchangeRateApi())
         result = converter.convert("", "USD", "EUR")
         self.assertEqual(result, False)
-        
+
     def test_conversion_returns_float(self):
         converter = Converter(ExchangeRateApi())
         result = converter.convert(1, "USD", "EUR")
