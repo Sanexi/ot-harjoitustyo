@@ -18,33 +18,33 @@ poetry run invoke start
 
 ### Sovelluksen alkunäkymä
 
-![start](dokumentaatio/images/converter-start.jpg)
+![start](images/converter-start.jpg)
 
 
 
 ### Valitse useista valuutoista
 170 eri valuuttaa mukaan lukien Bitcoin
 
-![choose](dokumentaatio/images/converter-choose.jpg)
+![choose](images/converter-choose.jpg)
 
 
 
 ### Ja vaihda valuuttasi
 Vaihto toimii helposti vain painamalla Enteriä
 
-![convert](dokumentaatio/images/converter-convert.jpg)
+![convert](images/converter-convert.jpg)
 
 
 
 ### Voit myös nopeasti vaihtaa samat valuutat puolelta toiselle:
 
-![swap](dokumentaatio/images/converter-swap.jpg)
+![swap](images/converter-swap.jpg)
 
 
 
 ### Tai kopioida saamasi tuloksen leikepöydällesi
 
-![copy](dokumentaatio/images/converter-copy.JPG)
+![copy](images/converter-copy.JPG)
 
 
 Sovelluksen saa suljettua oikean yläkulman ruksista.
