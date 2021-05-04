@@ -50,7 +50,7 @@ class Converter:
         if self.success and count != "":
             if from_curr != "EUR":
                 count = count / self.rates[from_curr]
-            return f"{float(self.rates[to_curr])*count:.4f}")
+            return f"{float(self.rates[to_curr])*count:.4f}"
         return False
 
     def date(self):
