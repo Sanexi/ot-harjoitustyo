@@ -12,4 +12,7 @@
 | 25.4. | 3    | UI parannuksia, lisää testejä |
 | 26.4. | 5    | UI lisää parannuksia, lisää testejä ja release |
 | 27.4. | 2    | Sekvenssikaavio ja loppuviikkopalautus |
-| Yhteensä | 34 |
+| 30.4. | 4    | UI parannuksia |
+| 2.5. | 4    | Arkkitehtuurikuvaus |
+| 4.5. | 2    | Käyttäjän virheiden tarkistus, loppuviikkopalautus |
+| Yhteensä | 44 |
