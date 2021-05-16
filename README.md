@@ -11,6 +11,7 @@ Sovellus on tehty Helsingin yliopiston Ohjelmistotekniikan kurssille harjoitusty
 * [Käyttöohjeisiin](https://github.com/Sanexi/ot-harjoitustyo/blob/master/dokumentaatio/kayttoohje.md)
 * [Releaseen](https://github.com/Sanexi/ot-harjoitustyo/releases)
 * [Arkkitehtuuriin](https://github.com/Sanexi/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
+* [Testaukseen](https://github.com/Sanexi/ot-harjoitustyo/blob/master/dokumentaatio/testaus.md)
 * [Työaikakirjanpitoon](https://github.com/Sanexi/ot-harjoitustyo/blob/master/dokumentaatio/tyoaikakirjanpito.md)
 
 
