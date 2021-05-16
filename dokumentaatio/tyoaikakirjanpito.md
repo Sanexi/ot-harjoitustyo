@@ -15,4 +15,8 @@
 | 30.4. | 4    | UI parannuksia |
 | 2.5. | 4    | Arkkitehtuurikuvaus |
 | 4.5. | 2    | Käyttäjän virheiden tarkistus, loppuviikkopalautus |
-| Yhteensä | 44 |
+| 13.5. | 4    | Testien korjausta |
+| 14.5. | 5    | Testien korjausta |
+| 15.5. | 3    | Testien viimeistely |
+| 16.5. | 4    | Dokumentaatio kuntoon loppupalautusta varten, release |
+| Yhteensä | 60 |
